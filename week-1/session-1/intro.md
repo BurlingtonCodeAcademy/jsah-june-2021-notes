@@ -82,6 +82,10 @@ Follow along online! Put a browser pointed at this site on one side of your scre
 * It's not all gibberish
 * Try to read it -- really try! -- and pull out the pearls from the pig slop
 
+There are two types of programming errors:
+* *Logic Errors* - most logic errors still allow the program to run, but result in unexpected output
+* *Syntax Errors* - there is an error in how the code is structured
+
 See also: [What went wrong?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_went_wrong) from MDN
 
 ---

@@ -65,6 +65,17 @@ The command line is very dependant on the file path. Here are a few key directio
 
 You can also run programs through the command line. To run a program through the command line, you type a preset keyword for the type of program you want to run, and then the name of the file you want to run.
 
+* Source code is the essence of a program
+* Source files are text files that contain source code
+* To run a JS file called *hello.js* `cd` into the directory where the file lives, then type `node hello.js`. This will execute the JS in the source file.
+
+> In the cookie recipe metaphor, the *source file* is the **recipe** and *running the program* is **cooking**.
+
+---
+
+# VS Code
+
+* VS Code is a code editor that allows us to more easily write and edit programs
 * To open VSCode from the command line you can issue the command `code .`
   * `code` is the keyword to open VSCode
   * `.` means "from this directory I'm currently in"
