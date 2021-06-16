@@ -90,13 +90,16 @@ A **number** is what it sounds like -- any integer or decimal.
 # Strings
 
 A **string** is an object that's a collection of characters, like a word or a sentence.
+* a *string literal* is a string whose characters are spelled out explicitly in your code
+* JavaScript string literals are surrounded with either single quotes (`'`) or double quotes (`"`), but not both!
 
 ```js
 "apple"
 "banana"
 "Cherry Pie"
+"My dog has fleas."
+'Vermonters have a hundred words for "snow".'
 ```
-
 ---
 
 # Slicing and Dicing

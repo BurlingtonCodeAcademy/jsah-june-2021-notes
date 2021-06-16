@@ -72,7 +72,9 @@ Whenever JavaScript encounters an expression, it tries to *evaluate* it, which m
 
 A simple expression (like a plain number or a string) evaluates to just that value.
 
-A more complicated expression with operators keeps applying those operators until it gets down to a single value. 
+A more complicated expression with operators keeps applying those operators until it gets down to a single value.
+
+When an expression is evaluated, it gives you back a value. The act of giving back the value is *returning*.
 
 > You can think of evaluation as *asking and answering* a question.
 
