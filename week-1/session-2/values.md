@@ -175,7 +175,6 @@ if(true) {
     console.log('It is truthy')
 }
 ```
-
 ---
 
 # Is it True?

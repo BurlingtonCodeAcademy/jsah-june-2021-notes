@@ -120,6 +120,17 @@ So with this picture in your mind, `slice`...
 Try various start and end values in the console and see what happens!
 
 ---
+# Characters
+
+A **character** is a *number* (or *character code*) that stands for a *symbol*.
+
+The **ASCII** Table (*American Standard Code for Information Interchange*) is the standard for character encoding.
+
+![ASCII Table](https://bootcamp.burlingtoncodeacademy.com/images/ASCII-Table-wide.svg)
+
+**Unicode** expands up on the ASCII table and currently has over 130K characters including 139 modern and historic scripts, accents, symbols, and emojis😂!
+
+---
 # String Comparison
 JavaScript strings respond to the `<` and `>` operators.
 
@@ -131,9 +142,7 @@ true
 ```
 >Strings are compared one character at a time using the *Unicode* values of each character.
 
-* **BEWARE**: In ASCII and Unicode, because of the way that all the uppercase letters are together, followed by all lowercase letters (codes 97 to 122).
-
-> That means that all uppercase strings are less than all lowercase strings.
+* **BEWARE**: In ASCII and Unicode, because of the way that all the uppercase letters are together, followed by all lowercase letters all uppercase strings are *less than* all lowercase strings.
 
 ```js
 > "apple" < "banana"
@@ -142,7 +151,8 @@ true
 false
 ```
 
-For example, if you say `"apple" < "apricot"`, JavaScript does something like this behind the scenes:
+For example, if you say `"apple" < "apricot"`, JavaScript looks at the ASCII code (where the character falls in the ASCII table) for each character in each string.  It's doing something like this behind the scenes:
+
 ```js
 > "apple".charCodeAt(0)
 97
@@ -159,6 +169,4 @@ For example, if you say `"apple" < "apricot"`, JavaScript does something like th
 > "apricot".charCodeAt(2)
 114
 ```
-In the above, 112 is less than 114, so the comparison stops there and returns true.
-
-## ASCII
+In the above, 112 (character code of `p` in *apple*) is less than 114 (character code of `r` in *apricot*), so the comparison stops there and returns true.
