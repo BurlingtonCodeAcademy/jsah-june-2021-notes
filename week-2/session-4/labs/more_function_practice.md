@@ -4,7 +4,7 @@ Try to solve the following labs by writing a function which returns output(s) fo
 
 ### For Example
 
-Write a function that:
+Write a function `addOne` that:
 
 * accepts a number as input
 * returns the input number plus the number positive one
@@ -48,6 +48,10 @@ You can get the current date by calling `Date.now()` which will give you a time 
 
 Here's one solution for the age calculator:
 
+<details>
+<summary>Answer</summary>
+<div>
+
 ```js
 let age = 27
 
@@ -70,6 +74,9 @@ console.log(ageCalc(age))
 
 To flip it you could simply divide the `num` variable by `secInYr` rather than multiplying to get years in a number of seconds.
 
+</div>
+</details>
+
 # Supply Calculator
 
 Write a function that:
@@ -87,19 +94,44 @@ supplyCal(0, 3, "cookie") // => "You will need 109500 cookies to last the rest o
 
 > Supply Calculator inspired by the Lifetime Supply Calculator lab designed for the Girl Develope It! curriculum. The original can be found [here](https://www.teaching-materials.org/javascript/exercises/functions)
 
-# Supply Calculator Solution
+<details>
+<summary>Hint 1</summary>
+<div>
+
+```js
+let amountPerYear = amountPerDay * 365
+```
+
+</div>
+</details>
+
+<details>
+<summary>Hint 2</summary>
+<div>
+
+```js
+let numberOfYears = 100 - age
+```
+
+</div>
+</details>
+
+<details>
+<summary>Solution</summary>
+<div>
 
 ```js
 function supplyCalc(age, amountPerDay, item) {
   let amountPerYear = amountPerDay * 365
   let numberOfYears = 100 - age
-  let totalNeeded = amountPerYear * numberOfYears
+  let totalNeeded = amountperYear * numberOfYears
 
-  let message = "You will need " + totalNeeded + " " + item + "s to last the rest of your life"
-
-  console.log(message)
+  let message = "You will need" + totalNeeded + " " + item + "s to last the rest of your life"
 }
 ```
+
+</div>
+</details>
 
 # MadLibs - Functional Labs
 
@@ -118,8 +150,85 @@ madLib('Bill', 'jump', 'dog') // => "Bill jumped the dog!"
 
 # MadLibs solution
 
+<details>
+<summary>Solution</summary>
+<div>
+
 ```js
 function madLib(noun, verb, directObject) {
   return noun + " " + verb + "ed the " + directObject + "!"
 }
 ```
+
+</div>
+</summary>
+</details>
+
+# Titleize - Functional Labs
+
+Write a function that:
+
+* accepts a string as an argument
+* splits apart the words in the string
+* capitalizes each word
+* returns a string with the first letter of each word capitalized e.g.
+
+```js
+titilize("all dogs are good dogs") // => "All Dogs Are Good Dogs"
+titilize("eveRY green bus drives fAst") // => "Every Green Bus Drives Fast"
+titilize("FRIDAY IS THE LONGEST DAY") // => "Friday Is The Longest Day"
+```
+
+# Titilize solution
+
+<details>
+<summary>Hint 1</summary>
+<div>
+
+```js
+function capitalize(word) {
+  return word[0].toUpperCase() + word.slice(1).toLowerCase()
+}
+```
+
+</div>
+</details>
+
+<details>
+<summary>Hint 2</summary>
+<div>
+
+```js
+let wordArray = string.split(" ")
+```
+
+</div>
+</details>
+
+<details>
+<summary>Solution</summary>
+<div>
+
+```js
+function titilize(string) {
+  let wordArray = string.split(" ");
+
+  let newString = "";
+  let wordsModified = 0;
+
+  while (wordsModified < wordArray.length) {
+    let currentWord = wordArray[wordsModified];
+    let firstCharacter = currentWord[0];
+    let restOfWord = currentWord.slice(1);
+    let newWord = firstCharacter.toUpperCase() + restOfWord.toLowerCase();
+    newString = newString + " " + newWord;
+    wordsModified = wordsModified + 1;
+  }
+
+  return newString.trim();
+}
+```
+
+</div>
+</details>
+
