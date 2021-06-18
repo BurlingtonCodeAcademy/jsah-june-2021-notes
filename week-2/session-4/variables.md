@@ -52,6 +52,16 @@ SyntaxError: Identifier 'x' has already been declared
 * also confusing: the value of a `let` is `undefined`, but the value of a normal assignment is the value being assigned
 
 ---
+# The Warehouse Metaphor
+If memory is a giant warehouse...
+
+...and memory locations are **boxes** in that warehouse
+
+...then a *value* is the **contents** of a box
+
+...and a *variable* is a **label*** you stick on the outside of the box
+
+---
 
 # Variables are documentation
 
@@ -69,8 +79,6 @@ let minutesPerHour = 60
 let hoursPerDay = 24
 let secondsPerDay = secondsPerMinute * minutesPerHour * hoursPerDay
 ```
-
-?
 
 ---
 
@@ -147,7 +155,7 @@ color                   // "blue"
 
 This is true for all strings, since strings in JavaScript are *immutable*. Any message that transforms a string will return you an entirely new string.
 
-But some messages **do** change the contents!
+But for some complex values, some messages **do** change the contents!
 
 ---
 
