@@ -23,9 +23,9 @@ Some things to try:
 - get a new best friend
 - and YELL THEIR NAME TOO
 
-### [Capitalize Lab](https://github.com/BurlingtonCodeAcademy/jsah-june-2021-notes/tree/main/week-2/session-4)
+### [Capitalize Lab](https://github.com/BurlingtonCodeAcademy/jsah-june-2021-notes/blob/main/week-2/session-4/labs/capitalize.md)
 
-### [More Function Practice Labs](https://github.com/BurlingtonCodeAcademy/jsah-june-2021-notes/tree/main/week-2/session-4)
+### [More Function Practice Labs](https://github.com/BurlingtonCodeAcademy/jsah-june-2021-notes/blob/main/week-2/session-4/labs/more_function_practice.md)
 
 >HINT: for Titalize lab, recall that
 > * the method `.split(' ')` will split a string on its spaces and create an array
