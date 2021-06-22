@@ -210,6 +210,10 @@ let wordArray = string.split(" ")
 <div>
 
 ```js
+function capitalize(word) {
+  return word[0].toUpperCase() + word.slice(1).toLowerCase();
+}
+
 function titilize(string) {
   let wordArray = string.split(" ");
 
@@ -218,9 +222,7 @@ function titilize(string) {
 
   while (wordsModified < wordArray.length) {
     let currentWord = wordArray[wordsModified];
-    let firstCharacter = currentWord[0];
-    let restOfWord = currentWord.slice(1);
-    let newWord = firstCharacter.toUpperCase() + restOfWord.toLowerCase();
+    let newWord = capitalize(currentWord);
     newString = newString + " " + newWord;
     wordsModified = wordsModified + 1;
   }
