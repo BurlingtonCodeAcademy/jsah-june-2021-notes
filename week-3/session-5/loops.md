@@ -18,6 +18,8 @@ while (someCondition) {
 
 In English this reads, "While some condition is true, do some action".
 
+The program will continue to do some action until the condition is false.
+
 ---
 
 # while true
@@ -154,65 +156,121 @@ while (true) {
 
 ---
 
-# Looping With User Input
-
-Loops are good for more than just counting. For example we could create a loop that asks a question over and over until the user enters a specific response.
-
-Let's build a simple application that echos back a users input until the user says "Stop copying me!"
-
----
-
-# Code-Along: The Setup
-
-Since we are going to be asking users for input we will want to import the `readline` library, and create  the `ask` function
-
-```js
-const readline = require('readline');
-const readlineInterface = readline.createInterface(process.stdin, process.stdout);
-
-function ask(questionText) {
-  return new Promise((resolve, reject) => {
-    readlineInterface.question(questionText, resolve);
-  });
-}
-```
-
----
-
-# Code-Along: Stop Copying Me!
-
-When setting up a loop we will want to set up a variable to check against. Then inside the loop we can use the ask function store the user input, and reassign the variable we're checking against.
-
-Since the ask function returns a promise we will also need to contain our loop inside an `async` function so we can `await` the *actual value* of the ask function.
-
-```js
-async function copyCat() {
-  let answer = 'Hello! How are you doing?'
-
-  while(answer.toLowerCase() !== "stop copying me!") {
-    answer = await ask(answer + " >_")
-  }
-  process.exit()
-}
-copyCat()
-```
-
----
-
 # Different Kinds of Loops
 
 While the `while` loop is arguably the most straightforward, and widely used loop in JavaScript it's not the only type of loop.
 
-JavaScript inherited the `for` loop from C; it's cumbersome and confusing but you should learn to recognize it.
+JavaScript inherited the `for` loop from C; it can be cumbersome and confusing but you should learn to recognize it.
 
 ```js
 for (let count=0; count < 100; count++) {
   console.log(count);
 }
 ```
+---
+# For vs While
 
+There are the same amount of *steps* happening in a `for` loop as a `while` loop, they're just written in slightly different ways.
+
+#### For
+```js
+for (
+  // initialize variable
+  let count=0;
+  // test the variable 
+  count < 100; 
+  // change the variable
+  count++) {
+    
+    console.log(count);
+}
+```
+#### While
+```js
+// initialize variable
+let count = 0;
+// test the variable
+while (count < 100>) {
+    console.log(count);
+    // change the variable
+    count = count + 1;
+}
+```
 ---
 
 # Flavors of For
 
-There are also a couple variations on the `for` loop that can be used to iterate over different data structures. These types of loops are known collectively as iterators, the most common of which are the `for ...in` loop, and the `for ...of` loop. More on those when we talk about data structures next week!
+There are also a couple variations on the `for` loop that can be used to iterate over different data structures.
+
+These types of loops are known collectively as *iterators*, the most common of which are the `for ...in` loop, and the `for ...of` loop. More on those when we talk about data structures next week!
+
+---
+
+# For Loops with Arrays
+A for loop is often seen paired with an indexed data structure known as an *Array*
+
+```js
+let poemLines = [
+  'Roses are red', 
+  'Violets are blue', 
+  'Honey is sweet',
+  'And so are you'
+];
+
+for (let line = 0; line < poemLines.length; line++) {
+  console.log(poemLines[line]);
+}
+```
+---
+# For Loop Breakdown (pt.1)
+We are using the for loop to get each item in the Array collection poemLines
+
+```js
+let poemLines = [
+  'Roses are red', 
+  'Violets are blue', 
+  'Honey is sweet',
+  'And so are you'
+];
+
+```
+---
+# For Loop Breakdown (pt.2)
+The `for (...)` part of a `for` loop is where the loop:
+
+* Initializes a variable to track
+* Determines whether to run again
+* Changes the variable after the loop runs.
+```js
+for (let line = 0; line < poemLines.length; line++)
+```
+---
+
+# For Loop Breakdown (pt.3)
+Think about the three parts as three separate lines of code.
+
+* Initialize a variable to track
+```js 
+let line = 0;
+```
+* Determine whether to run again
+```js 
+line < poemLines.length;
+```
+* Change the variable after the loop runs
+```js
+line++;
+```
+---
+# For Loop Breakdown (pt.4)
+The body of the loop is the code that runs on each time through the loop
+```js
+for (let line = 0; line < poemLines.length; line++) 
+/* everything inside the curly braces is the body */
+{
+  // this code will run each time we loop
+  // since `index` changes each time,
+  // a different poem line is printed each cycle
+  console.log(poemLines[line]);
+}
+```

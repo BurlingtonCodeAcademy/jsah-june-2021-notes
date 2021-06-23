@@ -19,4 +19,6 @@
 
 # MDN JavaScript Guide
 
+* [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
+
 # "You don't know JS" Book
