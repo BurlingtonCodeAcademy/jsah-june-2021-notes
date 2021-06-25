@@ -23,3 +23,4 @@
 # MDN JavaScript Guide
 
 # "You don't know JS" Book
+* [Comparisons & Coercive Comparisons](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch2.md#comparisons)

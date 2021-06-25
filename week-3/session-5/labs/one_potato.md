@@ -84,7 +84,67 @@ Remember, there's always more than one solution to any problem! Don't get fixate
 At this point your program might look something like the code block below. Don't worry if it doesn't! If it works (or is close to working) then your code is correct! Don't change it just to match the example solution!
 
 <details>
-<summary>Solution</summary>
+<summary>Solution #1 from Class</summary>
+<div>
+
+```js
+function poemLine() {
+    let count = 1;
+    while (count <= 8) {
+        if (count === 8) {
+            console.log("More!")
+        }
+        else if (count === 4) {
+            console.log("4!")
+        }
+        else {
+            console.log(count + " potato,")
+        }
+        count = count + 1;
+    }
+
+}
+poemLine()
+```
+</div>
+</details>
+
+
+<details>
+<summary>Solution #2 from Class</summary>
+<div>
+
+```js
+function poem(){
+  let count = 1;
+  poemLine(count)
+}
+
+function poemLine(lineCount) {
+  while (lineCount <= 8) {
+    let result = decideLine(lineCount);
+    console.log(result);
+    lineCount = lineCount + 1;
+  }
+}
+
+function decideLine(lineNumber) {
+  if (lineNumber === 8) {
+    return("More!");
+  } else if (lineNumber === 4) {
+    return("4!");
+  } else {
+    return(lineNumber + " potato,");
+  }
+}
+
+poem();
+```
+</div>
+</details>
+
+<details>
+<summary>Alternative Solution</summary>
 <div>
 
 ```js

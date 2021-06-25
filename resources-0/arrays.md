@@ -22,3 +22,5 @@
 * [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
 
 # "You don't know JS" Book
+
+* [Arrays and Objects](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch2.md#arrays-and-objects)

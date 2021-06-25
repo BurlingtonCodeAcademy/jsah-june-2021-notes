@@ -16,5 +16,3 @@
 * [Loops and Iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 * [For Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 * [While Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)
-
-# "You don't know JS" Book

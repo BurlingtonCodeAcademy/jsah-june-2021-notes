@@ -21,3 +21,4 @@
 * [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
 # "You don't know JS" Book
+* [Functions](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch2.md#functions)
