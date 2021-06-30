@@ -47,3 +47,4 @@ The following resources are excellent places to go to learn and practice JavaScr
 ## Learn to Code HTML & CSS
 
 * https://learn.shayhowe.com/html-css/
+* [CSS Tricks](https://css-tricks.com/)
