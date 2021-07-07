@@ -121,6 +121,33 @@ Look carefully at the digits inside the brackets -- **`d8b9565`**. They are the 
 > The commit id is generated using a cryptographic algorithm known as "SHA-1 hash", which assures that no two commits will ever have the exact same sequence of digits in their ids. <small><br>(unless someone [tries really hard to force a collision](https://security.googleblog.com/2017/02/announcing-first-sha1-collision.html))</small>
 
 ---
+# Diffs
+Diffs (also known as *patches*) can be difficult to understand at first.
+
+The most important thing is that every line beginning with a + was *added* and every line beginning with - was *removed*.
+
+Run `git show` on your *second* commit to see something like this:
+```js
+git show e9c9b25c6
+commit e9c9b25c65a83729a90c8740f71dc89432d7b548
+Author: Some Person <someone@burlingtoncodeacademy.com>
+Date:   Fri Sep 1 12:00:00 2020 -0400
+
+    oh no, out of condiments
+
+diff --git a/groceries.txt b/groceries.txt
+index 9f0ab0a..5ae9411 100644
+--- a/groceries.txt
++++ b/groceries.txt
+@@ -1,3 +1,2 @@
+-milk
+ eggs
+-chunky monkey ice cream
++ketchup
+```
+It's saying "milk" and "chunky monkey ice cream" were removed, and "ketchup" was added, during that commit.
+
+---
 
 # Pushing and Pulling
 
