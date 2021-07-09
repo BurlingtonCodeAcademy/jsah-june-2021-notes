@@ -1,5 +1,5 @@
 # Thursday 7/8/2021
-Tonight we started by talking about GitHub pull requests and pushed our Guess-the-Number projects for their initial review.
+Tonight we started by talking about GitHub pull requests and pushed our Guess-the-Number projects for their initial review. We discussed arrays in detail and reviewed a few frequently used methods.
 
 ## Reading & Homework
 
