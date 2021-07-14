@@ -9,7 +9,7 @@ The [project description](https://online.burlingtoncodeacademy.com/lessons/proje
 
 ## Labs
 
-## Enemies List Refactoring
+* [**Enemies List Refactoring**](https://github.com/BurlingtonCodeAcademy/jsah-june-2021-notes/blob/main/week-5/session-10/labs/hello_frenemy_part_2.md)
 
 ## Practice
 
