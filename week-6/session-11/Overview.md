@@ -30,7 +30,7 @@ Tab a stab at reading [Chapter 5 of Eloquent Javascript](https://eloquentjavascr
 
     </div>
     </details>
-* [**Titilize with Map**](https://bootcamp.burlingtoncodeacademy.com/lessons/javascript/iteration-methods#anchor/lab_titleize_with_map)
+* [**Titilize with Map**](https://github.com/BurlingtonCodeAcademy/jsah-june-2021-notes/blob/main/week-6/session-11/labs/titileize.md)
 
 
 ## Practice
