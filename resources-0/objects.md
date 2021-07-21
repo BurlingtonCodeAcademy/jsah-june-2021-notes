@@ -23,6 +23,7 @@
 
 * [Introduction to JS Objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects#the_constructor)
 * [Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+* [Working with Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 # "You don't know JS" Book
 * [Arrays & Objects](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/ch2.md#arrays-and-objects)
