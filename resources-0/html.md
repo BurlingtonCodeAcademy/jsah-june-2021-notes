@@ -8,6 +8,8 @@
 * [Comment out HTML](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/comment-out-html)
 * [Delete HTML Elements](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/delete-html-elements)
 * [Introduction to HTML5 Elements](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/introduction-to-html5-elements)
+* [Add Images to your Website](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/add-images-to-your-website)
+* [Link to External Pages with Anchor Elements](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/link-to-external-pages-with-anchor-elements)
 
 # MDN JavaScript Guide
 * [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
