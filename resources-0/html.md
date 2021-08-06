@@ -1,4 +1,20 @@
+# Useful Resources
+
+* Lorem Ipsum placeholder text:
+    * https://loremipsum.io/
+    * http://www.catipsum.com/
+
+<br/>
+
+* Placeholder images:
+    * https://www.placecage.com/
+	* https://www.fillmurray.com/
+    * https://placekitten.com/
+
+<br/>
+
 # Free Code Camp Exercises
+[All HTML exercises](https://www.freecodecamp.org/learn/responsive-web-design#basic-html-and-html5)
 
 * [Say Hello to HTML Elements](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/say-hello-to-html-elements)
 * [Headline with the h2 Element](https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/headline-with-the-h2-element)
