@@ -4,6 +4,7 @@
 
 # CSS Games
 * [CSS Diner](https://flukeout.github.io/)
+* [Flexbox Froggy](https://flexboxfroggy.com/)
 
 # Free Code Camp Exercises
 [All CSS exercises](https://www.freecodecamp.org/learn/responsive-web-design#basic-css)
@@ -27,6 +28,8 @@
 
 # MDN Guides
 * [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
-* [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
-* [List of all pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+* [CSS Pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements)
+    * [List of all pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 * [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+* [CSS Display Property](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+* [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
