@@ -5,6 +5,7 @@
 # CSS Games
 * [CSS Diner](https://flukeout.github.io/)
 * [Flexbox Froggy](https://flexboxfroggy.com/)
+* [Grid Garden](https://cssgridgarden.com/)
 
 # Free Code Camp Exercises
 [All CSS exercises](https://www.freecodecamp.org/learn/responsive-web-design#basic-css)
